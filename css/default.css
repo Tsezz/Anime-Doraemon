@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #0097e3; */
+    font-size: 14px;
+  }
+  ol, ul {
+    list-style-type: none;
+  }
+  body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #fc3;
+  }
+#code{
+    overflow: hidden;
+    height: 100%;
+}
+#wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    z-index: 10;
+}
+.doraemon {
+    width: 500px;
+    height: 610px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
